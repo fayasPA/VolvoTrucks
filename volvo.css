@@ -1,0 +1,362 @@
+body{
+    margin: 0%;
+}
+.main-body{
+    font-family: Volvo Novum Regular,Assistant,Arial,sans-serif;
+    width: 100%;
+}
+.header{
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 120px;
+    background-color: white;
+    color: #707479;
+}
+.left-header{
+    width: 48%;
+    margin-top: 30px;
+}
+.left-headerList{
+    display: flex;
+    list-style: none;
+}
+.leftHeaderLogoText{
+    margin-left: 25px;
+    font-size: 13px;
+    margin-top: 2px;
+    
+}
+.right-header{
+    width:47% ;
+}
+.rightHeader-one{
+    float: right;
+    margin-top: 15px;
+
+}
+.rightHeader-list{
+    list-style: none;
+    display: flex;
+}
+.rightHeader-text{
+    font-size: 10px;
+    margin-left: 30px;
+}
+.rightHeadericon{
+    height: 10px;
+}
+.rightHeader-two{
+    margin-top: 10%;
+    margin-left: 50%;
+}
+form input{
+    width: 225px;
+    height: 30px;
+    border: 1px solid #d9e0eb;
+    padding-left: 14px;
+    font-size: 11px;
+}
+
+.movingHeader{
+    width: 96%;
+    height: 25px;
+    background-color: #e1dfdd;
+    padding-left: 4%;
+    font-family: Volvo Novum Regular,Assistant,Arial,sans-serif;
+    color: #707479;
+    
+}
+.movingHeader-list{
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.movingHeader-text{
+    height: 100%;
+    width: 95px;
+    font-size: 10px;
+    padding-right: 20px;
+    text-align:center;
+    text-decoration: none;
+    font-weight: 400;
+}
+.movingHeader-text:hover{
+    background-color:#fff
+}
+.collage{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    height: 416px;
+    background-color: #fff;
+    width: 94%;
+    
+}
+.collage1{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.collage1image{
+    height: 100%;
+    margin: 2px;
+}
+.img{
+    width: 350px;
+    height: 200px;
+}
+.img1{
+    height: 98px;
+    width: 250px;
+}
+.collage2{
+    margin-top: 0%;
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.collage2image1{
+    height: 100%;
+    width: 75%;
+}
+.collage2image2{
+    height: 100%;
+    width: 27%;
+}
+.img2{
+    width: 707px;
+    height: 204px;
+}
+.img22{
+    height: 203px;
+    width: 250px;
+}
+.OurTrucks{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(77, 75, 75);
+    margin-bottom: 50px;
+}
+.collage3{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    height: 150px;
+    background-color: #fff;
+    display: flex;
+}
+.collage3img{
+    height: 150px;
+    width: 90%;
+}
+.img3{
+    width: 293px;
+    height: 150px;
+}
+.contentTruckName{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    width:90%;
+    margin-bottom: 25px;
+}
+.truckName{
+    width: 293px;
+    font-size: 13px;
+    margin-left: 95px;
+    margin-top: 30px;
+    color: #004fbc;
+    font-weight: 400;
+    
+}
+.collage4{
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #fff;
+}
+.collage4 table{
+    font-family: Volvo Novum Regular,Assistant,Arial,sans-serif;
+    color: #53565a;
+}
+.img4{
+    width: 308px;
+    height: 170px;
+    margin-right: 16px;
+}
+.collage4header{
+    text-align: left;
+}
+.collage4para{
+    font-size: 12px;
+    vertical-align:top;
+}
+.collage4link{
+    font-size: 12px;
+    vertical-align:top;
+    cursor: pointer;
+}
+.linklist{
+    text-decoration: none;
+    font-weight: 400;
+    color: #004fbc;
+}
+.tableList{
+    padding-left: 15px;
+    padding-right: 25px;
+}
+.ButtonRow{
+    padding-left: 420px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.btn{
+    width: 200px;
+    height: 35px;
+    font-size: 12px;
+    font-family: Volvo Novum Regular,Assistant,Arial,sans-serif;
+    color: #53565a;
+    background-color: #fff;
+    border: 1px solid;
+    font-weight: bold;
+}
+.ScndLast{
+    padding: 4%;
+    width: 90%;
+    height: 350px;
+    background-color: #fff;
+}
+.scndLastInner{
+    width: 100%;
+    height: 100%;
+    font-family: Volvo Novum Regular,Assistant,Arial,sans-serif;
+    background-color: #e1dfdd;
+    color: #53565a
+}
+.scndLastInnerHeader{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.scndLastInner input{
+    width: 600px;
+    height: 30px;
+    margin-left: 40px;
+    border: 1px thin;
+}
+.scndLastInner button{
+    width: 150px;
+    height: 35px;
+    font-family: Volvo Novum Regular,Assistant,Arial,sans-serif;
+    background-color: #004fbc;
+    color: #fff;
+    border: none;
+}
+.check{
+    display: flex;
+    margin-left: -290px;
+    margin-top: 7px;
+}
+.check input{
+    height: 19px;
+}
+.scndLastInner .check h4{
+    margin-left: -280px;
+    margin-top: 5px;
+}
+.privacySttmnt{
+    padding-left: 74px;
+    padding-right: 55px;
+    margin-bottom: 20px;
+}
+.privacySttmnt p{
+    font-size: 12px;
+    margin-top: -17px;
+
+}
+.last{
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 92%;
+    height: 250px;
+    background-color:#fff;
+    font-family: Volvo Novum Regular,Assistant,Arial,sans-serif;
+    padding-bottom: 2%;
+}
+.last img{
+    width: 98%;
+    height: 250px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.last button{
+    background-color: #004fbc;
+    color: #fff;
+    position: absolute;
+    left: 41%;
+    width: 150px;;
+    height: 32px;
+    margin-top: 18%;
+    font-weight: bold;
+    font-size: 12px;
+}
+.footer{
+    padding-top: 10px;
+    width: 94%;
+    height:auto;
+    background-color:#e1dfdd;
+    font-family: Volvo Novum Regular,Assistant,Arial,sans-serif;
+    padding-left: 6%;
+}
+.footerHeader h3{
+    margin-right: 143px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #707479;
+}
+.footerList1{
+    font-size: 12px;
+    font-weight: 300;
+    color: #707479;
+}
+.footerList1 img{
+    height: 13px;
+    padding-top: 13px;
+    padding-right: 7px;
+}
+.footer-end{
+    width: 92%;
+    height: 65px;
+    background-color:#e1dfdd;
+    text-align: left;
+    padding-top: 4%;
+    padding-left:4%;
+    padding-right: 4%;
+    display: flex;
+    font-family: Volvo Novum Regular,Assistant,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #707479;
+}
+.footer-endLeft{
+    width: 50%;
+    display: flex;
+    
+}
+.footer-endLeft img{
+    height: 13px;
+    padding-top: 13px;
+    padding-right: 7px;
+}
+.footer-endRight{
+    width: 50%;
+}
+.footer-endRight table{
+    float: right;
+}
+.footer-end-right-table
+{
+    padding-right: 10px;
+}
